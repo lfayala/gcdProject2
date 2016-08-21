@@ -1,4 +1,5 @@
-#Selected columns for the tidy data set. Only mean and standard deviation measurements where selected from the features.txt file (79 variables coded bellow). 
+#To create the tidyData1.csv files the script files (described in readme.md) process the features.txt file to identify the mean and std measurements. Afterwards opens the X file and chooses only the selected columns (79). Following Y and subject values are read and appended to the dataframe. Finnaly activity labes data is loaded to be merged with the data.
+#Here you will find the selected columns for the tidy data set. Only mean and standard deviation measurements where selected from the features.txt file (79 variables coded bellow). 
 #Also the following columns where added - ActivityID,ActivityLabel,Source (test or train) and AcSubject(subject of each observation) for a total number of 83 variables.
 
 #79 mean and std measurements 
